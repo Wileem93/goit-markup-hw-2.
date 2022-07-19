@@ -1,0 +1,11 @@
+body {
+    font-family: 'Releway',Roboto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
