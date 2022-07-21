@@ -1,5 +1,13 @@
+:root {
+    --first-titel-color: #212121;
+    --second-titel-color: #757575;
+    --third-titel-color:#FFFFFF; 
+    --accent-color: #2196f3;
+    
+}
 body {
     font-family: 'Releway',Roboto;
+    color: #212121;
 }
 
 .list {
@@ -9,3 +17,267 @@ body {
 .link {
     text-decoration: none;
 }
+
+
+/*------------------------------------HEADER---------------------------------------*/
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.header-nav span {
+    color: #000000;
+}
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--first-titel-color);
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);
+}
+
+
+
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-titel-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+color: var(--accent-color);
+}
+.header-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-titel-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+color: var(--accent-color);
+}
+
+
+
+.header-logo {
+
+}
+
+/*------------------------------------HERO---------------------------------------*/
+.hero-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: #ffffff;
+background-color: #2196f3;
+}
+
+.hero {
+    background-color:  #2F303A;
+}
+
+
+.hero-pre-titel {
+font-family: 'Roboto',sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-titel {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+}
+.hero-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+    
+}
+
+
+/*------------------------------------ABOUT---------------------------------------*/
+
+.about {
+}
+.about-titel {
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.about-list {
+}
+.about-item {
+}
+
+/*------------------------------------TEAM---------------------------------------*/
+.team-titel {
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-item {
+}
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/*-----------------CONTACTS------------------*/
+
+
+
+
+.conacts-address {
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/*------------------PORTFOLIO.HTML------------------*/
+
+.hero-two-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.hero-two-btn:hover,
+.hero-two-btn:focus {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+
+.hero-two-title {
+font-weight: 700;
+font-size: 18px;
+line-height: calc(36 / 18);
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.hero-two-text {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/*-----------------CONTACTS------------------*/
+
+.conacts-address {
+    font-style: normal;
+}
+.conacts {
+    background-color: #2f303a;
+}
+
+.conacts-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.conacts span {
+    color: #ffffff;
+}
+
+.conacts-map{ 
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 /14);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.conacts-map:hover,
+.conacts-map:focus {
+color: var(--accent-color);
+}
+
+.mail-link {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 /14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.mail-link:hover,
+.mail-link:focus {
+color: var(--accent-color);
+}
+
+.tel-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 /14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-link:hover,
+.tel-link:focus {
+color: var(--accent-color);
+}
+
